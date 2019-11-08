@@ -2,5 +2,5 @@ __pycache__
 bin
 lib
 include
-
-
+pyvenv.cfg
+pip-selfcheck.json
