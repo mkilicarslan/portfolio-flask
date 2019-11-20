@@ -1,114 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width,initial-scale=1" name="viewport" />
-    <meta content="description" name="description" />
-    <meta name="google" content="notranslate" />
-    <meta
-      content="Mashup templates have been developped by Orson.io team"
-      name="author"
-    />
 
-    <!-- Disable tap highlight on IE -->
-    <meta name="msapplication-tap-highlight" content="no" />
+<head>
+  <meta charset="UTF-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width,initial-scale=1" name="viewport" />
+  <meta content="description" name="description" />
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author" />
 
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="{{ url_for('static', filename='assets/apple-icon-180x180.png') }}"
-    />
-    <link
-      href="{{ url_for('static', filename='assets/favicon.ico') }}"
-      rel="icon"
-    />
-    <title>Title page</title>
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no" />
 
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="{{ url_for('static', filename='main.css') }}"
-    />
-  </head>
+  <link rel="apple-touch-icon" sizes="180x180"
+    href="{{ url_for('static', filename='assets/apple-icon-180x180.png') }}" />
+  <link href="{{ url_for('static', filename='assets/favicon.ico') }}" rel="icon" />
+  <title>Title page</title>
 
-  <body class="">
-    <div id="site-border-left"></div>
-    <div id="site-border-right"></div>
-    <div id="site-border-top"></div>
-    <div id="site-border-bottom"></div>
-    <!-- Add your content of header -->
-    <header>
-      <nav class="navbar  navbar-fixed-top navbar-default">
-        <div class="container">
-          <button
-            type="button"
-            class="navbar-toggle collapsed"
-            data-toggle="collapse"
-            data-target="#navbar-collapse"
-            aria-expanded="false"
-          >
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
 
-          <div class="collapse navbar-collapse" id="navbar-collapse">
-            <ul class="nav navbar-nav ">
-              <li><a href="{{ '/index.html' }}" title="">01 : Home</a></li>
-              <li><a href="{{ '/works.html' }}" title="">02 : Works</a></li>
-              <li><a href="{{ '/about.html' }}" title="">03 : About me</a></li>
-              <li><a href="{{ '/contact.html' }}" title="">04 : Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <div class="section-container">
+<body class="">
+  <div id="site-border-left"></div>
+  <div id="site-border-right"></div>
+  <div id="site-border-top"></div>
+  <div id="site-border-bottom"></div>
+  <!-- Add your content of header -->
+  <header>
+    <nav class="navbar  navbar-fixed-top navbar-default">
       <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="section-container-spacer text-center">
-              <h1 class="h2">03 : About me</h1>
-            </div>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
 
-            <div class="row">
-              <div class="col-md-10 col-md-offset-1">
-                <div class="row">
-                  <div class="col-xs-12 col-md-6">
-                    <h3>Consectetur adipiscing elit</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Maecenas luctus at sem quis varius. Class aptent taciti
-                      sociosqu ad litora torquent per conubia nostra, per
-                      inceptos himenaeos. Cras ultrices hendrerit nisl.
-                    </p>
-                    <h3>Ut enim ad minim</h3>
-                    <p>
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                      sint occaecat cupidatat non proident, sunt in culpa qui
-                      officia deserunt mollit anim id est laborum.
-                    </p>
+        <div class="collapse navbar-collapse" id="navbar-collapse">
+          <ul class="nav navbar-nav ">
+            <li><a href="{{ '/index.html' }}" title="">01 : Home</a></li>
+            <li><a href="{{ '/works.html' }}" title="">02 : Works</a></li>
+            <li><a href="{{ '/about.html' }}" title="">03 : About me</a></li>
+            <li><a href="{{ '/contact.html' }}" title="">04 : Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-                    <h3>Maecenas luctus at sem quis varius</h3>
-                    <p>
-                      Class aptent taciti sociosqu ad litora torquent per
-                      conubia nostra, per inceptos himenaeos. Phasellus iaculis
-                      magna sagittis elit sagittis, at hendrerit lorem
-                      venenatis. Morbi accumsan iaculis blandit. Cras ultrices
-                      hendrerit nisl.
-                    </p>
-                  </div>
-                  <!-- <div class="col-xs-12 col-md-6">
-                    <img
-                      src="static/assets/images/profil.jpg"
-                      class="img-responsive"
-                      alt=""
-                    />
-                  </div> -->
+  <div class="section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">03 : About me</h1>
+          </div>
+
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Hi there!</h3>
+                  <p>
+                    I am a full stack developer with a passion for creating
+                    complex software solutions.
+                  </p>
+                  <h3>What languages do you speak?</h3>
+                  <p>
+                    Eventhough I am currently speaking Python (with the help
+                    of Flask on this website); thanks to JavaScript, I like
+                    writing poems in Node.js environment. Hopefully, in a few
+                    weeks, I will be able to speak Java fluently. (<a
+                      href="https://www.coursera.org/specializations/java-object-oriented">Here</a>
+                    is how)
+                  </p>
+
+                  <h3>Where did you learn software development?</h3>
+                  <p>
+                    Short answer: Google <br />
+                    Long answer: Google, Udacity, Udemy, Coursera, Edx...
+                    Google <br />
+                    And special thanks to Starbucks, Tim Hortons and Kahve
+                    Dunyasi ('Coffee World' in Turkish) for letting me code
+                    for hours with only one cup of coffee.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-md-5" style="padding: 40px;">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/portfolio-flask.appspot.com/o/profil.jpg?alt=media&token=72b30c0f-3083-4391-889c-f0beed5a901c"
+                    class="img-responsive" alt="" />
                 </div>
               </div>
             </div>
@@ -116,35 +97,29 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <footer class="footer-container text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <p>
-              © UNTITLED | Website created with
-              <a
-                href="http://www.mashup-template.com/"
-                title="Create website with free html template"
-                >Mashup Template</a
-              >/<a
-                href="https://www.unsplash.com/"
-                title="Beautiful Free Images"
-                >Unsplash</a
-              >
-            </p>
-          </div>
+  <footer class="footer-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p>
+            © UNTITLED | Website created with
+            <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup
+              Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a>
+          </p>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function(event) {
-        navActivePage();
-      });
-    </script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function (event) {
+      navActivePage();
+    });
+  </script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>
   (function (i, s, o, g, r, a, m) {
@@ -158,9 +133,7 @@
 </script>
 
 -->
-    <script
-      type="text/javascript"
-      src="{{ url_for('static', filename='main.js') }}"
-    ></script>
-  </body>
+  <script type="text/javascript" src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+
 </html>
