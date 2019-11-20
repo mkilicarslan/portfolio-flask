@@ -524,6 +524,15 @@ h1 {
     font-size: 70px
 }
 
+@media (max-width:767px) {
+
+    .h1,
+    h1 {
+        font-size: 60px
+    }
+}
+
+
 .h2,
 h2 {
     font-size: 30px
