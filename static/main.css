@@ -5694,17 +5694,20 @@ body.minimal {
     display: table-cell
 }
 
-.white-text-container h1,
-.white-text-container h2,
-.white-text-container h3,
-.white-text-container h4,
-.white-text-container h5,
-.white-text-container p {
+
+
+
+.green-text-container h1,
+.green-text-container h2,
+.green-text-container h3,
+.green-text-container h4,
+.green-text-container h5,
+.green-text-container p {
     text-shadow: 0 1px 3px #000;
-    color: #fff
+    color: #0f0
 }
 
-.white-text-container a {
+.green-text-container a {
     color: #fff
 }
 
