@@ -1,8 +1,6 @@
 ## portfolio-flask
 
-I have developed a portfolio web app using Python, Flask and an HTML template.
-You can view the deployed version [here](http://mkilicarslan.pythonanywhere.com)
-Contact page inputs are stored in database.csv file.
+I have developed a portfolio web app using Python/Flask and deployed to Google Cloud Platform. You can view the deployed version at [mkilicarslan.com](https://mkilicarslan.com).
 
 ### Roadmap
 
